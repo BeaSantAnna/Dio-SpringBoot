@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="me.dio.ApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-06-04T13:07:55" hostname="DESKTOP-Q03J572" time="0.903">
+  <properties/>
+  <testcase name="contextLoads()" classname="me.dio.ApplicationTests" time="0.903"/>
+  <system-out><![CDATA[10:07:47.769 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [me.dio.ApplicationTests]: ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+10:07:47.972 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration me.dio.Application for test class me.dio.ApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.1.1)
+
+2024-06-04T10:07:48.680-03:00  INFO 2252 --- [    Test worker] me.dio.ApplicationTests                  : Starting ApplicationTests using Java 19.0.2 with PID 2252 (started by Beatriz in C:\Users\Beatriz\Documents\Cursos Java\Santader Bootcamp\Arquivos\Desafio Spring\santander-dev-week-2023-api-main)
+2024-06-04T10:07:48.683-03:00  INFO 2252 --- [    Test worker] me.dio.ApplicationTests                  : No active profile set, falling back to 1 default profile: "default"
+2024-06-04T10:07:50.186-03:00  INFO 2252 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-04T10:07:50.309-03:00  INFO 2252 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 106 ms. Found 1 JPA repository interfaces.
+2024-06-04T10:07:51.056-03:00  INFO 2252 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-06-04T10:07:51.391-03:00  INFO 2252 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:77dfa7ec-7e0b-4bde-8132-9421796176f5 user=SA
+2024-06-04T10:07:51.394-03:00  INFO 2252 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-06-04T10:07:51.477-03:00  INFO 2252 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-04T10:07:51.602-03:00  INFO 2252 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.5.Final
+2024-06-04T10:07:51.607-03:00  INFO 2252 --- [    Test worker] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2024-06-04T10:07:51.895-03:00  INFO 2252 --- [    Test worker] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2024-06-04T10:07:52.203-03:00  INFO 2252 --- [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-04T10:07:52.688-03:00  INFO 2252 --- [    Test worker] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2024-06-04T10:07:53.813-03:00  INFO 2252 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-04T10:07:53.914-03:00  INFO 2252 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-04T10:07:55.089-03:00  WARN 2252 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-04T10:07:55.898-03:00  INFO 2252 --- [    Test worker] me.dio.ApplicationTests                  : Started ApplicationTests in 7.61 seconds (process running for 9.644)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
